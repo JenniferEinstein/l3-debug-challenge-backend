@@ -1,7 +1,7 @@
 # Debug Challenge
 
 
-<img src="./src/assets/learn-nation-logo.webp" alt="LearnNation Logo" width="350" height="auto">
+<img src="./assets/learn-nation-logo.webp" alt="LearnNation Logo" width="350" height="auto">
 
 ## Introduction
 The CTO at LearnNation wants you to sharpen your debugging skills both with and without AI, while strengthening your knowledge of the full technology stack. This application is your playground to achieve just that—and compete for prizes!
