@@ -31,7 +31,14 @@ Proof of completion will be based on your presentation of the working applicatio
 - 1st Place: $25 Amazon gift card
 - 2nd Place: $15 Amazon gift card
 
+### How to Win
 
+- Fix all the bugs
+- Complete the challenge in the least amount of time
+- Document your debugging process
+- Present your working application to your manager
+- Create a pull request with your changes to the `main` branch
+- Submit your PR link to your manager
 
 ## Technology Stack
 
