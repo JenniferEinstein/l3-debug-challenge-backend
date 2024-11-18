@@ -1,10 +1,9 @@
 # Debug Challenge
 
-<img src="./assets/learn-nation-logo.webp" alt="LearnNation Logo" width="350" height="auto">
+
+<img src="./src/assets/learn-nation-logo.webp" alt="LearnNation Logo" width="350" height="auto">
 
 ## Introduction
-
-
 The CTO at LearnNation wants you to sharpen your debugging skills both with and without AI, while strengthening your knowledge of the full technology stack. This application is your playground to achieve just that—and compete for prizes!
 
 ### Features of the Application:
@@ -31,7 +30,6 @@ Proof of completion will be based on your presentation of the working applicatio
 
 - 1st Place: $25 Amazon gift card
 - 2nd Place: $15 Amazon gift card
-- 3rd Place: $10 Amazon gift card
 
 
 
@@ -48,7 +46,7 @@ Proof of completion will be based on your presentation of the working applicatio
 - nodemon
 - material-ui
 
-## Where Not To Look for Bugs
+## Where NOT to look for bugs
 These are the files you should **not** look at:
 
 - `backend/db/` folder (this setup is in tact, do not modify)
@@ -66,22 +64,22 @@ These are the files you should **not** look at:
 
 ## Setup
 
+You may want to clone your forked frontend and backend applications into one folder but it is not required.
 
 ### Frontend Setup
 
-You will need to download the [frontend application](https://github.com/jdrichards-pursuit/debug-challenge-frontend) and run it locally on port 3000.
-
-- `clone` this application
-- `cd` into the app
+- `fork` and `clone` the [frontend application](https://github.com/jdrichards-pursuit/debug-challenge-frontend) and run it locally on port 3000.
+- `cd` into the app directory
+- `cd` into the frontend directory
 - run `npm install`
 - run `npm run dev`
-- you don't need to add `.env` file
+- you don't need to add a `.env` file
 - navigate to `localhost:3000` and you will not see the app due to the bugs
 
 ### Backend Setup
 
-You will need to download the [backend application](https://github.com/jdrichards-pursuit/debug-challenge-backend) and run it locally on port 3003.
-
+- `fork` and `clone` the [backend application](https://github.com/jdrichards-pursuit/debug-challenge-backend) and run it locally on port 3003.
+- `cd` into the app directory
 - `cd` into the backend application
 - run `npm install`
 - add `.env` file based on `.env.EXAMPLE` file
@@ -95,7 +93,10 @@ You will need to download the [backend application](https://github.com/jdrichard
 
 ## Debugging
 
-You will need to study the code on both ends and study the error messages. Use both AI and your knowledge of the stack to debug. You are not required to only use AI.
+Study the code first. Both frontend and backend. 
+Study the error messages. 
+Use both AI and your knowledge of the stack to debug. 
+You are not required to only use AI you should also use your manual debugging skills.
 
 
 ## MY BACKEND DEBUGGING NOTES (add your debugging notes here)
