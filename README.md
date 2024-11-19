@@ -40,6 +40,8 @@ Proof of completion will be based on your presentation of the working applicatio
 - Create a pull request with your changes to the `main` branch
 - Submit your PR link to your manager
 
+**Note:** You must fix at least 7 bugs to attain the first place prize. Otherwise, you will be awarded the second place amount.
+
 ## Technology Stack
 
 - React
