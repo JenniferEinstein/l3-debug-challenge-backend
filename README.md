@@ -116,6 +116,11 @@ You are not required to only use AI you should also use your manual debugging sk
 6.
 7.
 
+## MY FRONTEND DEBUGGING NOTES (add your debugging notes here)
+
+1.
+2.
+3.
 
 
 Good luck and may the best debuggers win!
