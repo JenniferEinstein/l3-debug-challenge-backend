@@ -115,8 +115,8 @@ You are not required to only use AI you should also use your manual debugging sk
 3? Do I need to replace axios with Fetch in quoteController?
 4. In music.js, change getAllSongs so that allSongs gets all the columns.
 5. In music.hs the deleteSong function needed the id to be passed into the query.
-6.
-7.
+6.  In app.js, moved the middleware before the routes.
+7.  In app.js, configured CORS handling to a specific origin.
 
 ## MY FRONTEND DEBUGGING NOTES (add your debugging notes here)
 

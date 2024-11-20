@@ -5,16 +5,16 @@ const quoteController = require("./controllers/quoteController");
 const app = express();
 
 
-app.use("/songs", musicController);
-app.use("/quote", quoteController);
-
-
-app.use(cors());
+// middleware
+app.use(cors({
+    origin: "http://localhost:3000"
+}));
 app.use(express.json());
 
-
-
 // ROUTES
+
+app.use("/songs", musicController);
+app.use("/quote", quoteController);
 app.get("/", (_req, res) => {
   res.send("Welcome to the Debug Challenge");
 });
