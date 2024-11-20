@@ -120,12 +120,8 @@ You are not required to only use AI you should also use your manual debugging sk
 
 ## MY FRONTEND DEBUGGING NOTES (add your debugging notes here)
 
-1. npm run dev gave me an error 
-    1. Error:   Failed to scan for dependencies from entries:
-  /Users/einsteiniumpursuit/pursuit/l3-dubug-challenge-frontend/index.html
-
-  ✘ [ERROR] No matching export in "src/App.jsx" for import "default"
-2.  The errors are not named very well; is that really a 404 error.
+1. In Quote.jsx, I changed the name to export from Quote to Quotations.
+2. The errors are not named very well; is that really a 404 error? In Quotations, added more info in an error.
 3. Added "export default App;" to the end of App.jsx
 
 
