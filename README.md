@@ -111,7 +111,7 @@ You are not required to only use AI you should also use your manual debugging sk
 ## MY BACKEND DEBUGGING NOTES (add your debugging notes here)
 
 1.  createSongs Function Name Mismatch:
-2.
+2.  Used req.body for POST data instead of req.params in createSongs
 3.
 4.
 5.
