@@ -28,8 +28,8 @@ Proof of completion will be based on your presentation of the working applicatio
 
 ### Prizes:
 
-- 1st Place: $25 Amazon gift card
-- 2nd Place: $15 Amazon gift card
+- 1st Place: $20 Amazon gift card
+- 2nd Place: $10 Amazon gift card
 
 ### How to Win
 
