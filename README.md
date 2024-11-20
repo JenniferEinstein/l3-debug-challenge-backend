@@ -123,6 +123,7 @@ You are not required to only use AI you should also use your manual debugging sk
 1. In Quote.jsx, I changed the name to export from Quote to Quotations.
 2. The errors are not named very well; is that really a 404 error? In Quotations, added more info in an error.
 3. Added "export default App;" to the end of App.jsx
+4? In Songs.jsx, should useEffect replace useLayoutEffect?
 
 
 Good luck and may the best debuggers win!
