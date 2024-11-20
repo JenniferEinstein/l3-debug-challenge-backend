@@ -110,7 +110,7 @@ You are not required to only use AI you should also use your manual debugging sk
 
 ## MY BACKEND DEBUGGING NOTES (add your debugging notes here)
 
-1.
+1.  createSongs Function Name Mismatch:
 2.
 3.
 4.
