@@ -126,7 +126,7 @@ You are not required to only use AI you should also use your manual debugging sk
 
   ✘ [ERROR] No matching export in "src/App.jsx" for import "default"
 2.  The errors are not named very well; is that really a 404 error.
-3.
+3. Added "export default App;" to the end of App.jsx
 
 
 Good luck and may the best debuggers win!
