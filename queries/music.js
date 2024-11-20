@@ -3,7 +3,7 @@ const db = require("../db/dbConfig");
 const getAllSongs = async () => {
   
   try {
-    const allSongs = await db.any("SELECT song FROM songs");
+    const allSongs = await db.any("SELECT id, title, artist, genre FROM songs");
     return allSongs;
   } catch (error) {
     console.log("db error", error);
@@ -25,10 +25,11 @@ const createSong = async (song) => {
 
 const deleteSong = async (id) => {  
   try {
-    const deletedSong = await db.one("DELETE FROM songs WHERE id = $1 RETURNING *");
+    const deletedSong = await db.one("DELETE FROM songs WHERE id = $1 RETURNING *", [id]);
     return deletedSong;
   } catch (error) {
-    return error;
+    console.error("Error deleting song:", error);
+    throw new Error("Failed to delete song");
   }
 };
 
